@@ -1,4 +1,4 @@
-package es.afmsoft.moviesapp.ui.theme
+package es.afmsoft.moviesapp.core.core_ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

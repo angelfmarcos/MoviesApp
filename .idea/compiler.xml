@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.7">
       <module name="MoviesApp.app" target="11" />
+      <module name="MoviesApp.core.core_ui" target="11" />
       <module name="MoviesApp.movies_list.di" target="11" />
       <module name="MoviesApp.movies_list.framework" target="11" />
       <module name="MoviesApp.movies_list.ui" target="11" />

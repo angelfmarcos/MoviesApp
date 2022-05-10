@@ -34,6 +34,7 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion compose_version
     }
+    namespace 'es.afmsoft.moviesapp.core.core_ui'
 }
 
 dependencies {

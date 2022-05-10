@@ -12,16 +12,15 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/core_domain" />
             <option value="$PROJECT_DIR$/core/core_ui" />
             <option value="$PROJECT_DIR$/movies_list" />
             <option value="$PROJECT_DIR$/movies_list/data" />
-            <option value="$PROJECT_DIR$/movies_list/di" />
             <option value="$PROJECT_DIR$/movies_list/domain" />
             <option value="$PROJECT_DIR$/movies_list/framework" />
             <option value="$PROJECT_DIR$/movies_list/ui" />
           </set>
         </option>
-        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

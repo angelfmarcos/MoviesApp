@@ -22,9 +22,10 @@ import es.afmsoft.moviesapp.movies_list.ui.components.MoviesListItem
 @ExperimentalFoundationApi
 @ExperimentalCoilApi
 @Composable
-fun MoviesListScreen() {
+fun MoviesListScreen(
+    viewModel: MoviesListViewModel = hiltViewModel()
+) {
 
-    val viewModel: MoviesListViewModel = hiltViewModel()
     val state = viewModel.state
 
     LazyVerticalGrid(

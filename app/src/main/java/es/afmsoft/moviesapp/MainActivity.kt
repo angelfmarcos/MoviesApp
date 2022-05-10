@@ -8,10 +8,12 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.ui.Modifier
+import dagger.hilt.android.AndroidEntryPoint
 import es.afmsoft.moviesapp.core.core_ui.theme.MoviesAppTheme
 import es.afmsoft.moviesapp.movies_list.ui.MoviesListScreen
 
 
+@AndroidEntryPoint
 @ExperimentalFoundationApi
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
